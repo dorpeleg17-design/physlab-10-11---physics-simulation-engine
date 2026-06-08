@@ -9,8 +9,6 @@
 
 
 https://github.com/user-attachments/assets/91c972fd-407f-4ec6-b706-e0fff9db228b
-<img width="695" height="405" alt="Screenshot 2026-06-08 173127" src="https://github.com/user-attachments/assets/578ba083-d31c-4d79-93fb-cb1beefd47c4" />
-
 
 ## 🚀 Core Features
 
@@ -18,3 +16,5 @@ https://github.com/user-attachments/assets/91c972fd-407f-4ec6-b706-e0fff9db228b
 * **Automated Simulation Bounds:** Precision event-tracking stops the simulation loop automatically the exact moment a user-defined elapsed time or specific 3D position vector target is achieved.
 * **Continuous Multi-Axis Wrapping:** Implements fractional overshoot calculation on boundary limits. When an object escapes the visual viewport constraints ($X$, $Y$, or $Z$), it seamlessly wraps back into scene bounds without losing fractional precision.
 * **Constraint Dynamics & Momentum:** Simulates multi-body particle mechanics and structural system attachments, featuring custom length limits for **Wires** and dynamic calculations for **Plastic** and **Elastic** collision impulse resolutions.
+
+<img width="695" height="405" alt="Screenshot 2026-06-08 173127" src="https://github.com/user-attachments/assets/578ba083-d31c-4d79-93fb-cb1beefd47c4" />
