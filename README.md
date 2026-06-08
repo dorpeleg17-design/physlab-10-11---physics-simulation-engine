@@ -7,3 +7,13 @@
 
 > **A native, thread-safe desktop application designed to visually simulate, track, and mathematically verify classical 10th and 11th-grade mechanics problems without heavy commercial engine dependencies.**
 
+
+https://github.com/user-attachments/assets/91c972fd-407f-4ec6-b706-e0fff9db228b
+
+
+## 🚀 Core Features
+
+* **Kinematics Tracking Engine:** Real-time benchmark tracking of ideal, non-gravitational coordinate translation. Verifies actual object coordinates against exact theoretical formulas ($x = x_0 + v_0t + 0.5at^2$).
+* **Automated Simulation Bounds:** Precision event-tracking stops the simulation loop automatically the exact moment a user-defined elapsed time or specific 3D position vector target is achieved.
+* **Continuous Multi-Axis Wrapping:** Implements fractional overshoot calculation on boundary limits. When an object escapes the visual viewport constraints ($X$, $Y$, or $Z$), it seamlessly wraps back into scene bounds without losing fractional precision.
+* **Constraint Dynamics & Momentum:** Simulates multi-body particle mechanics and structural system attachments, featuring custom length limits for **Wires** and dynamic calculations for **Plastic** and **Elastic** collision impulse resolutions.
