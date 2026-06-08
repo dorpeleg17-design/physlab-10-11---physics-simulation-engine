@@ -1,0 +1,45 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: g++.exe build OpenGL project",
+            "command": "C:\\msys64\\ucrt64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${workspaceFolder}/main.cpp",
+                "${workspaceFolder}/glad.c", 
+                "${workspaceFolder}/Object.cpp",
+                "${workspaceFolder}/Object2D.cpp",
+                "${workspaceFolder}/Object3D.cpp",
+                "${workspaceFolder}/Box.cpp",
+                "${workspaceFolder}/ObjectsManager.cpp",
+                "${workspaceFolder}/TextBox.cpp",
+                "${workspaceFolder}/Button.cpp",
+                "${workspaceFolder}/InputBox.cpp",
+                "${workspaceFolder}/physicsHUD.cpp",
+                "-o",
+                "${workspaceFolder}/main.exe",
+                "-I${workspaceFolder}/include",
+                "-lglfw3",
+                "-lopengl32",
+                "-lgdi32",
+                "-luser32",
+                "-lkernel32",
+                "-pipe"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "OpenGL build task with GLFW and GLAD."
+        }
+    ],
+    "version": "2.0.0"
+}
