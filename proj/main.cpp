@@ -64,7 +64,7 @@ int main()
         if (data.isValid)
         {
             Color whiteColor = {1.0f, 1.0f, 1.0f, 1.0f};
-            Object* kinematicObj = new Box(whiteColor, data.startingPosition.x, data.startingPosition.y, data.startingPosition.z, 1.0f);
+            Object* kinematicObj = new Box(whiteColor, data.startingPosition.x, data.startingPosition.y, data.startingPosition.z, 20.0f);
             
             kinematicObj->setVelocity(data.initialVelocity);
             kinematicObj->setAcceleration(data.initialAcceleration);
