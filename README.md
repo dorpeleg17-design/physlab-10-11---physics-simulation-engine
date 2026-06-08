@@ -17,4 +17,5 @@ https://github.com/user-attachments/assets/91c972fd-407f-4ec6-b706-e0fff9db228b
 * **Continuous Multi-Axis Wrapping:** Implements fractional overshoot calculation on boundary limits. When an object escapes the visual viewport constraints ($X$, $Y$, or $Z$), it seamlessly wraps back into scene bounds without losing fractional precision.
 * **Constraint Dynamics & Momentum:** Simulates multi-body particle mechanics and structural system attachments, featuring custom length limits for **Wires** and dynamic calculations for **Plastic** and **Elastic** collision impulse resolutions.
 
-<img width="695" height="405" alt="Screenshot 2026-06-08 173127" src="https://github.com/user-attachments/assets/578ba083-d31c-4d79-93fb-cb1beefd47c4" />
+
+<img width="694" height="419" alt="image" src="https://github.com/user-attachments/assets/01f889c0-db0a-43f9-be59-9faf47be17b9" />
