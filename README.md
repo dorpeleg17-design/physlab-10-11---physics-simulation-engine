@@ -9,6 +9,8 @@
 
 
 https://github.com/user-attachments/assets/91c972fd-407f-4ec6-b706-e0fff9db228b
+<img width="694" height="419" alt="image" src="https://github.com/user-attachments/assets/395e3c20-42ad-4df5-8459-4faf92b913dd" />
+<img width="695" height="405" alt="Screenshot 2026-06-08 173127" src="https://github.com/user-attachments/assets/578ba083-d31c-4d79-93fb-cb1beefd47c4" />
 
 
 ## 🚀 Core Features
